@@ -92,7 +92,7 @@
 
 			// create a SQL statement
 			Statement stmt = con.createStatement();
-			String sql = "select * from admin where password = VLAD ('" + password + "')";
+			String sql = "select * from admin where password = root ('" + password + "')";
 
 			// execute the statement
 			ResultSet rs = stmt.executeQuery (sql);

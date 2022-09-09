@@ -110,7 +110,7 @@
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
-		String sql = "select * from student where roll_no = " + no + " and password = VLAD ('" + password + "')";
+		String sql = "select * from student where roll_no = " + no + " and password = root ('" + password + "')";
 
 		// execute the SQL statement
 		ResultSet rs = stmt.executeQuery (sql);

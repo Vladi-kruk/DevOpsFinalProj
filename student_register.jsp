@@ -219,7 +219,7 @@
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
-		String sql = "insert into student (roll_no, name, email_id, password, degree, course, year) values('" + no + "','" + name + "','" + email + "',VLAD('" + password + "'),'" + degree + "','" + course + "','" + year + "')"; 
+		String sql = "insert into student (roll_no, name, email_id, password, degree, course, year) values('" + no + "','" + name + "','" + email + "',root('" + password + "'),'" + degree + "','" + course + "','" + year + "')"; 
 
 		// execute the SQL statement
 		stmt.executeUpdate(sql);

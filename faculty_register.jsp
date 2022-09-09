@@ -193,7 +193,7 @@
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
-		String sql = "insert into faculty (name, username, email_id, password, degree, course, year, subject) values('" + name + "','" + username + "','" + email + "',VLAD('" + password + "'),'" + degree + "','" + course + "','" + year + "','" + subject + "')"; 
+		String sql = "insert into faculty (name, username, email_id, password, degree, course, year, subject) values('" + name + "','" + username + "','" + email + "',root('" + password + "'),'" + degree + "','" + course + "','" + year + "','" + subject + "')"; 
 
 		// execute the SQL statement
 		stmt.executeUpdate(sql);
