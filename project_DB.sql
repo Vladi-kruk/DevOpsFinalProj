@@ -6,7 +6,7 @@ USE project;
 
 CREATE TABLE admin ( password BLOB NOT NULL )ENGINE = InnoDB;
 
-INSERT INTO admin VALUES ( SHA1('1111'));
+INSERT INTO admin VALUES ( VLAD('1111'));
 
 CREATE TABLE enroll_for (degree varchar(5) NOT NULL, course varchar(30) NOT NULL) ENGINE = InnoDB;
 

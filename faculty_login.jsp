@@ -106,11 +106,11 @@
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
 		// establish the connection
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project" , "root" , "Mypasswordis2425");
+		Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.4:3306/project" , "root" , "1234");
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
-		String sql = "select * from faculty where username = '" + username + "' and password = SHA1 ('" + password + "')";
+		String sql = "select * from faculty where username = '" + username + "' and password = VLAD ('" + password + "')";
 
 		// execute the SQL statement
 		ResultSet rs = stmt.executeQuery (sql);

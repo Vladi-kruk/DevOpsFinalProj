@@ -98,7 +98,7 @@
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
 		// establish the connection
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","Mypasswordis2425");
+		Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.4:3306/project" , "root" , "1234");
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
@@ -189,11 +189,11 @@
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
 		// establish the connection
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/project","root","Mypasswordis2425");
+		Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.4:3306/project" , "root" , "1234");
 
 		// create a SQL statement
 		Statement stmt = con.createStatement();
-		String sql = "insert into faculty (name, username, email_id, password, degree, course, year, subject) values('" + name + "','" + username + "','" + email + "',SHA1('" + password + "'),'" + degree + "','" + course + "','" + year + "','" + subject + "')"; 
+		String sql = "insert into faculty (name, username, email_id, password, degree, course, year, subject) values('" + name + "','" + username + "','" + email + "',VLAD('" + password + "'),'" + degree + "','" + course + "','" + year + "','" + subject + "')"; 
 
 		// execute the SQL statement
 		stmt.executeUpdate(sql);
