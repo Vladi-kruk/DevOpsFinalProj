@@ -100,7 +100,7 @@
                             <div class="col-xl-6 col-lg-7 col-md-12">
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInLeft" data-delay="0.2s">Virtual<br>Classroom</h1>
-                                    <p data-animation="fadeInLeft" data-delay="0.4s">Teaching tool to assist each and every student to learn in an interactive manner.<br><br><br>By Vladi Kruk ,Almog Shmul and Ron Ofir<br>HIT - Devops Course</p>
+                                    <p data-animation="fadeInLeft" data-delay="0.4s">Teaching tool to assist each and every student to learn in an interactive manner.<br><br><br>By Vladi Kruk ,Almog Shmul and Ron Ofir<br>HIT - Devops Course Ziv </p>
                                 </div>
                             </div>
                         </div>
