@@ -2,6 +2,7 @@ version: '3.9'
 services:
   jenkins:
     image: jenkins/jenkins
+    user: root:root
     ports:
       - 8081:8081
     volumes:
